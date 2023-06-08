@@ -30,6 +30,7 @@
 
 .introducao img{
   height: 100%;
+  width: 100%;
   object-fit: cover;
   border-radius: 4px;
 }
@@ -54,5 +55,10 @@
     font-size: 32px;
     margin-bottom: 16px;
     padding: 0px;
+  }
+
+  .introducao img{
+    height: 300px;
+    width: 100%;
   }
 }
